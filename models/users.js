@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const mongoose = require("mongoose")
 const Schema = mongoose.Schema;
 
 const schema = new Schema(
@@ -8,7 +8,7 @@ const schema = new Schema(
     },
     {
         timestamps: true,
-        collation: "users"
+        collection: "users"
 
     }
 )
