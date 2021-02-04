@@ -3,11 +3,11 @@ const Schema = mongoose.Schema;
 
 const schema = new Schema(
     {
-        c_id: String, // รหัสสินค้า
-        c_firstname: String ,// ชื่อสินค้า
-        c_lastname: String, // ราคาขายสินค้า
-        c_address: String, // ราคาทุน
-        c_tel: String
+        c_id: String, // รหัสลูกค้า
+        c_name: String ,// ชื่อจริงลูกค้า
+        c_lastname: String, // นามสกุลลูกค้า
+        c_email: String, // อีเมลลูกค้า
+        c_tel: Number, // เบอร์โทรศัพท์ลูกค้า
 
     },
     {

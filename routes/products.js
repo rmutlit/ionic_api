@@ -4,6 +4,6 @@ const controller = require("../controllers/productsController");
 
 /* GET users listing. */
 router.get("/", controller.index);
-router.get("/insert", controller.insert);
+router.post("/insert", controller.insert);
 
 module.exports = router;
